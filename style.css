@@ -1,0 +1,51 @@
+#mainMenu {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+table {
+  width: 400px;
+}
+
+th {
+  text-align: left;
+}
+table, th, td {
+  border: 1px solid #000;
+}
+
+.paragraph {
+  position: absolute; /* or absolute */
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+ .paragraph {
+   color: cadetblue;
+   font-family: "Arial Black", Gadget, sans-serif;
+ }
+
+ 
