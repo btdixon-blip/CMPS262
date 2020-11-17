@@ -12,16 +12,6 @@ header{
   background-position: center;
 }
 
-.logo{
-  line-height: 60px;
-  position: fixed;
-  float: left;
-  margin: 16px 46px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 2px;
-}
 
 nav{
   width: 100%;
@@ -76,35 +66,7 @@ nav ul li a{
     top: 0;
   }
 }
-.stage {
-  background: #eaeaed;
-  border-radius: 6px;
-  height: 150px;
-  position: relative;
-  min-width: 538px;
-}
-.stage:hover .ball {
-  animation: slide 2s ease-in-out .5s infinite alternate;
-}
-.stage:active .ball {
-  animation-play-state: paused;
-}
-.ball {
-  background: #2db34a;
-  border-radius: 50%;
-  height: 50px;
-  position: absolute;
-  width: 50px;
-}
-}
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 .column {
   float: left;
@@ -160,6 +122,12 @@ html {
     width: 100%;
     display: block;
   }
+}
+
+input:checked~span.to-be-red {
+
+color: red;
+
 }
 
  
