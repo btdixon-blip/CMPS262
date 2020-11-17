@@ -24,19 +24,8 @@
          </div>
       </nav>
     </header>
-    <div class="content">
-      <p>*THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-        *THIS IS MY PARAGRAPH CONTENT*
-      </p>
-    </div>
+
+<span><input type="radio" name="red" value="red"><span class="to-be-red">RED</span></span>
 
       <table border="1" align="left">
     <tr>
@@ -55,6 +44,8 @@
         <td>2017</td>
       </tr>
     </table>
+    <p border="1" align="left">
+      <p>This is my paragraph section<p>
     <div class="row">
       <div class="column">
         <div class="card">
@@ -81,51 +72,7 @@
               $('nav').removeClass('black');
           }
         })
-        </script>
-        <form>
-          White
-          <input type="radio" onClick="document.bgColor='white' " name="r">
-          <br>
-        Red
-        <input type="radio" onClick="document.bgColor='red' " name="r">
-        <br>
-        Green
-        <input type="radio" onClick="document.bgColor='green'" name="r">
-        <br>
-        Blue
-        <input type="radio" onClick="document.bgColor='blue'" name="r">
-        <br>
-        </form>
-        <div class="stage">
-          <figure class="ball"></figure>
-        </div>
 
-    <div id="output-text">
-        <h1 style="color:green;">
-            Change My Font
-        </h1>
-    </div>
-
-    <select id="input-font" class="input"
-        onchange="changeFontStyle (this);">
-
-        <option value="Times New Roman"
-            selected="selected">
-            Times New Roman
-        </option>
-        <option value="Arial">Arial</option>
-        <option value="fantasy">Fantasy</option>
-        <option value="cursive">cursive</option>
-    </select>
-
-    <script>
-        var changeFontStyle = function (font) {
-            document.getElementById(
-                "output-text").style.fontFamily
-                        = font.value;
-        }
         </script>
 
 </body>
-</html>
-
