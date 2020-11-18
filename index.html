@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="logo"
+             LOGO
+        </div>
+        <div class="menu">
+          <ul>
+             <li><a href=index.html>Home</a></li>
+             <li><a href="#">Resume</a></li>
+             <li><a href="#">Projects</a></li>
+             <li><a href="#">Photos</a></li>
+           </ul>
+         </div>
+      </nav>
+    </header>
+
+<span><input type="radio" name="red" value="red"><span class="to-be-red">RED</span></span>
+
+      <table border="1" align="left">
+    <tr>
+        <th>Degree:</th>
+        <th>Minor:</th>
+        <th>Graduation Year:</th>
+      </tr>
+      <tr>
+        <td>Information Technology</td>
+        <td>Business Management</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>Forensic Science</td>
+        <td>Chemistry</td>
+        <td>2017</td>
+      </tr>
+    </table>
+    <p border="1" align="left">
+      <p>This is my paragraph section<p>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="me.jpg" alt="Brannon" style="width:100%">
+          <div class="container">
+            <p class="title">IT Associate/Student</p>
+            <p>Current Courses: Advanced Programming, Digital Security</p>
+            <p>Interests: Traveling, Hiking, and trying new restaurants/breweries</p>
+            <p>Email: btdixon@pointpark.edu</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script type="text/javascript">
+        //scroll effect
+        $(window).on("scroll",function(){
+          if($(window).scrollTop()){
+                  $('nav').addClass('black');
+          }
+
+          else{
+              $('nav').removeClass('black');
+          }
+        })
+
+        </script>
+
+</body>
+</html>
